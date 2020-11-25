@@ -11,7 +11,7 @@ html {
 }
 
 .row {
-    width: 1600px;
+    width: 1500px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -35,7 +35,7 @@ section {
 
 .nav img {
     margin: 0;
-    height: 100px;
+    height: 5rem;
     width: auto;
     display: block;
 }
@@ -53,12 +53,12 @@ li a {
     color: #eee;
     text-decoration: none;
     padding: 0.5rem;
-    font-size: 170%;
+    font-size: 1.7rem;
     flex: 2;
 }
 
 input {
-    margin-left: .5rem;
+    margin-left: 0.5rem;
     border-radius: 0.3rem;
     padding: 0.5rem;
     font-size: 1rem;
@@ -73,7 +73,7 @@ button {
 
 .main-screen {
     background-color: #7FFF00;
-    height: 500px;
+    height: 25rem;
     position: relative;
 }
 
@@ -82,7 +82,7 @@ button {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 1600px;
+    width: 1500px;
 }
 
 .content p {
@@ -95,7 +95,7 @@ h1 {
     color: #49E20E;
 }
 
-/* IMAGES */
+/******************** IMAGES ************************/
 
 .img-heading {
     display: flex;
@@ -121,7 +121,6 @@ h6 {
     display: flex;
     justify-content: space-between;
     width: 100%;
-
 }
 
 .image .img-container {
@@ -129,7 +128,7 @@ h6 {
 }
 
 .images img {
-    height: 300px;
+    height: 15rem;
     width: 100%;
 }
 

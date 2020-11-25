@@ -1,0 +1,286 @@
+@media (max-width: 1600px) {
+    html {
+        font-size: 20px;
+        font-family: 'Lato', sans-serif;
+        width: 100vw;
+    }
+
+    .row {
+        width: 1140px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    section {
+        margin-top: 2rem;
+    }
+
+    /******************************* HEADER **********************/
+
+    .content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 1140px;
+    }
+}
+
+@media (max-width: 1200px) {
+    html {
+        font-size: 18px;
+        font-family: 'Lato', sans-serif;
+        width: 100vw;
+    }
+
+    .row {
+        width: 970px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    section {
+        margin-top: 2rem;
+    }
+
+    /*************************** HEADER **************************/
+
+    li a {
+        color: #eee;
+        text-decoration: none;
+        padding: 0.4rem;
+        font-size: 1.5rem;
+        flex: 2;
+    }
+
+    .content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 970px;
+    }
+}
+
+@media (max-width: 1024px) {
+    html {
+        font-size: 14px;
+        font-family: 'Lato', sans-serif;
+        width: 100vw;
+    }
+
+    .row {
+        width: 750px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    section {
+        margin-top: 2rem;
+    }
+
+    /*************************** HEADER **************************/
+
+    .content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 750px;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    /************************* IMAGES ****************************/
+
+    .image .img-container {
+        width: 32%;
+    }
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 14px;
+        font-family: 'Lato', sans-serif;
+        width: 100vw;
+    }
+
+    .row {
+        width: 450px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    section {
+        margin-top: 1.5rem;
+    }
+
+    /************************* HEADER *********************/
+    .navbar {
+        background-color: black;
+        height: auto;
+        width: auto;
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        align-items: center;
+    }
+
+    .nav img {
+        margin: 0;
+        height: 4rem;
+        width: auto;
+    }
+
+    ul {
+        margin-bottom: 0.5rem;
+    }
+
+    li a {
+        color: #eee;
+        text-decoration: none;
+        padding: 0.5rem;
+        font-size: 1.5rem;
+    }
+
+    input {
+        border-radius: 0.3rem;
+        padding: 0.5rem;
+        font-size: 1rem;
+    }
+
+    button {
+        padding: 0.5rem;
+        border-radius: 0.3rem;
+        font-size: 1rem;
+        background-color: #fff;
+    }
+
+    form {
+        margin-bottom: 0.5rem;
+    }
+
+    .main-screen {
+        background-color: #7FFF00;
+        height: 20rem;
+        position: relative;
+    }
+
+    .content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 450px;
+    }
+
+    .content p {
+        color: #49E20E;
+        margin-bottom: 1rem;
+    }
+
+    h1 {
+        font-size: 3rem;
+        color: #49E20E;
+    }
+
+    /************************ SECTION **********************/
+    .img-heading {
+        display: block;
+        border-bottom: 1px solid #888;
+        margin-bottom: 1rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+        margin-bottom: 0.3rem;
+    }
+
+    h6 {
+        margin-bottom: 0.5rem;
+    }
+
+    .images p {
+        margin-bottom: 2rem;
+    }
+
+    .image {
+        display: block;
+        width: 100%;
+    }
+
+    .image .img-container {
+        width: 99%;
+    }
+
+    .images img {
+        height: 20rem;
+        width: 100%;
+    }
+
+    h5 {
+        margin-top: 0.2rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    html {
+        font-size: 14px;
+        font-family: 'Lato', sans-serif;
+        width: 100vw;
+    }
+
+    .row {
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    section {
+        margin-top: 1rem;
+    }
+
+    /************************* HEADER *********************/
+
+    .main-screen {
+        background-color: #7FFF00;
+        height: 20rem;
+        position: relative;
+    }
+
+    .content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 300px;
+    }
+
+    .content p {
+        color: #49E20E;
+        margin-bottom: 1rem;
+    }
+
+    h1 {
+        font-size: 3rem;
+        color: #49E20E;
+        margin-bottom: 1rem;
+    }
+
+    /************************* SECTION ********************/
+
+    h3 {
+        font-size: 1.5rem;
+        margin-bottom: 0.3rem;
+    }
+
+    h6 {
+        margin-bottom: 0.5rem;
+    }
+}
